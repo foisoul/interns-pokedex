@@ -174,6 +174,8 @@ describe('Pokemon Repository', () => {
     });
   });
 
+
+  
   describe('getPokemonByType', () => {
     it('should fetch pokemon by type', async () => {
       const mockTypeData = {
